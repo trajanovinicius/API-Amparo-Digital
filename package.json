@@ -4,6 +4,10 @@
   "description": "Api para cadastro de pessoas necessitadas e cadastro de itens necessitados por essas pessoas. A ideia é montar uma rede de apoio, arrecadando doações desses itens.",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prisma:migrate": "prisma migrate dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
