@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/trajanovinicius/API-Amparo-Digital#readme",
   "dependencies": {
+    "@fastify/cors": "^11.1.0",
     "@prisma/client": "^6.16.2",
     "dotenv": "^17.2.2",
     "fastify": "^5.6.1",
