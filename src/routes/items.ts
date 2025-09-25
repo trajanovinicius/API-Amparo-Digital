@@ -21,7 +21,7 @@ export async function itemRoutes(app: FastifyInstance) {
     return res.status(200).send(item);
   });
 
-  app.put("/:id", async (req, res) => {
+  app.patch("/:id", async (req, res) => {
     const { id } = req.params as { id: string };
     const { name, quantity } = req.body as {
       name?: string;
