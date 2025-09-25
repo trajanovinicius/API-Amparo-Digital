@@ -85,3 +85,5 @@ dist
 # Gatsby files
 .cache/
 
+
+/src/generated/prisma
